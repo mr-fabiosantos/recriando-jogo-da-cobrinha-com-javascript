@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body{
+    background-color: black;
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1{
+    font-size: 8vh;
+    color: #F4F4F4;
+    text-transform: uppercase;
+}
+
+canvas{
+    border: 5px inset #F4F4F4;
+    border-radius: 2px;
+}
+
+footer{
+    display: flex;
+    padding-top: 15px;
+    color: #F4F4F4;
+    text-transform: uppercase;
+    align-items: center;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: #F4F4F4;
+}
+
+a:hover{
+    color: #d3d3d3;
+}
+
+.redes-sociais{
+    flex-direction: row;
+}
